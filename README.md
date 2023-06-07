@@ -2,13 +2,13 @@
 
 ## Project Steps:
 - Thread Group->Add->Config Element->JDBC Connection Configuration
-                                    - Variable Name: myConnection
+                                    -> Variable Name: myConnection
 - Database URL: jdbc:mysql://localhost:3306
 - JDBC Driver Class: com.mysql.jdbc.Driver
 - Username: root
 - Put the mysql-connector-java-5.1.48.jar in lib folder
 - Thread Group->Add->Sampler->JDBC Request
-                             - Variable Name: myConnection
+                             -> Variable Name: myConnection
 - Query: SELECT * FROM table_name
 - Create new users
 - Select new users
